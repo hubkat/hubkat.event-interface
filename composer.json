@@ -1,0 +1,18 @@
+{
+    "name": "hubkat/event-interface",
+    "description": "interface for github webhook events",
+    "homepage":"https://github.com/hubkat/hubkat.event-interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hubkat\\EventInterface\\": "src/"
+        }
+    }
+}
